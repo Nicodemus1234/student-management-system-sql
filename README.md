@@ -27,8 +27,9 @@ cd student-management-system
 sql
 \i schema_and_queries.sql
 
+---
  ##UNDERSTANDING THE DATABASE STRUCTURE
- 
+ ---
   ##Core Tables & Relationships
 This system is built using relational database principles ensuring structured and efficient data management.
 
@@ -82,9 +83,9 @@ Identifies instructors managing multiple courses.
 
 📸 SAMPLE OUTPUT DESCRIPTIONS
 
-1️⃣ Students Enrolled in More Than Two Courses
+ Students Enrolled in More Than Two Courses
 
-🎓 student_id	🏷️ first_name	🏷️ last_name	📊 total_courses
+ student_id	  first_name	  last_name	  total_courses
 
 1️⃣	Winnie	Jemutai	3️⃣
 
@@ -92,7 +93,7 @@ Identifies instructors managing multiple courses.
 
 2️⃣ Course Popularity Analysis
 
-🏛️ course_id	📚 course_name	👨‍🎓 total_students
+ course_id	  course_name	  total_students
 
 201	Web Development	8️⃣
 
