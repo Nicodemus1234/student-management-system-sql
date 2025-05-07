@@ -1,9 +1,13 @@
-  STUDENT MANAGEMENT SYSTEM 
-  
+#STUDENT MANAGEMENT SYSTEM 
+---
 A comprehensive SQL-based system for managing students, instructors, courses, enrollments, and academic insights.
-
-🚀 GETTING STARTED
-✅ Requirements
+##OVERVIEW
+---
+A SQL-based database system designed to manage students, courses, instructors, enrollments, and academic performance, providing insightful queries
+and optimized relational structures.
+ 
+##Requirements
+---
 
 Before running the SQL code, ensure you have: 
 ✔️ A PostgreSQL/MySQL database system installed 
