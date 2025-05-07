@@ -16,7 +16,6 @@ Before running the SQL code, ensure you have:
 ✔️ Basic knowledge of SQL for executing scripts
 
   ## Installation Steps
-
   Clone the repository:
 
 sh
@@ -27,7 +26,7 @@ cd student-management-system
 
 sql
 \i schema_and_queries.sql
----
+
  ##UNDERSTANDING THE DATABASE STRUCTURE
  
   ##Core Tables & Relationships
