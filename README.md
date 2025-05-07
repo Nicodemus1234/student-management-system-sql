@@ -69,20 +69,33 @@ Helps academic teams optimize course offerings.
  Instructor Load Report
 
 sql
+
 SELECT i.instructor_id, i.first_name, i.last_name, COUNT(c.course_id) AS total_courses
+
 FROM student_management.instructors i
+
 LEFT JOIN student_management.courses c ON i.instructor_id = c.instructor_id
+
 GROUP BY i.instructor_id, i.first_name, i.last_name;
+
 Identifies instructors managing multiple courses.
 
 📸 SAMPLE OUTPUT DESCRIPTIONS
+
 1️⃣ Students Enrolled in More Than Two Courses
+
 🎓 student_id	🏷️ first_name	🏷️ last_name	📊 total_courses
+
 1️⃣	Winnie	Jemutai	3️⃣
+
 2️⃣	Nicodemus	Koech	4️⃣
+
 2️⃣ Course Popularity Analysis
+
 🏛️ course_id	📚 course_name	👨‍🎓 total_students
+
 201	Web Development	8️⃣
+
 202	Data Science	5️⃣
 
 
@@ -90,14 +103,13 @@ Identifies instructors managing multiple courses.
  
   Designing efficient joins between tables required careful query optimization to prevent performance issues.
 
- Schema Design Considerations
+  Schema Design Considerations
 
-Foreign key constraints ensured data integrity
-
+ Foreign key constraints ensured data integrity
+ 
  Indexes optimized retrieval speed 
  
- Normalization reduced redundancy
----
+
 ## FUTURE ENHANCEMENTS
 
   Add user authentication for role-based access 
