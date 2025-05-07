@@ -26,7 +26,7 @@ cd student-management-system
 sql
 \i schema_and_queries.sql
 
----
+
  ##UNDERSTANDING THE DATABASE STRUCTURE
  ---
   ##Core Tables & Relationships
@@ -43,7 +43,7 @@ This system is built using relational database principles ensuring structured an
 ✔️ Foreign keys establish relationships between tables
 ✔️ Cascading delete prevents orphan records 
 ✔️ Indexes enhance query speed
----
+
 ## SQL QUERIES & INSIGHTS
 ## Key Queries
 ---
