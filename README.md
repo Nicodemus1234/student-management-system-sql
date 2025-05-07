@@ -26,7 +26,6 @@ cd student-management-system
 sql
 \i schema_and_queries.sql
 
-
  ##UNDERSTANDING THE DATABASE STRUCTURE
  ---
   ##Core Tables & Relationships
