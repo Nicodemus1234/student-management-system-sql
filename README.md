@@ -29,18 +29,21 @@ sql
 \i schema_and_queries.sql
 ---
  ##UNDERSTANDING THE DATABASE STRUCTURE
----
+ 
   ##Core Tables & Relationships
 This system is built using relational database principles ensuring structured and efficient data management.
 
-  ###Table	  ### Purpose
+  Table	   Purpose
 ---
 🎓 students	Stores student records (ID, name, email, date of birth)
 👨‍🏫 instructors	Tracks instructor details and course assignments
 📚 courses	Contains course descriptions and assigned instructors
 📝 enrollments	Links students to courses, including grades and registration dates
-🔗 Database Integrity Features:
-✔️ Primary keys ensure uniqueness ✔️ Foreign keys establish relationships between tables ✔️ Cascading delete prevents orphan records ✔️ Indexes enhance query speed
+ # Database Integrity Features:
+✔️ Primary keys ensure uniqueness 
+✔️ Foreign keys establish relationships between tables
+✔️ Cascading delete prevents orphan records 
+✔️ Indexes enhance query speed
 ---
 ## SQL QUERIES & INSIGHTS
 ## Key Queries
@@ -85,7 +88,7 @@ Identifies instructors managing multiple courses.
 
 
  # CHALLENGES FACED & LESSONS LEARNED
----
+ 
   🔹 Designing efficient joins between tables required careful query optimization to prevent performance issues.
 
  Schema Design Considerations
