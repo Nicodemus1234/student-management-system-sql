@@ -1,8 +1,9 @@
 #STUDENT MANAGEMENT SYSTEM 
 ---
 A comprehensive SQL-based system for managing students, instructors, courses, enrollments, and academic insights.
-##OVERVIEW
 ---
+##OVERVIEW
+
 A SQL-based database system designed to manage students, courses, instructors, enrollments, and academic performance, providing insightful queries
 and optimized relational structures.
  
@@ -14,7 +15,7 @@ Before running the SQL code, ensure you have:
 ✔️ A SQL editor (e.g., pgAdmin, MySQL Workbench) 
 ✔️ Basic knowledge of SQL for executing scripts
 
-   Installation Steps
+  ## Installation Steps
 
   Clone the repository:
 
@@ -26,28 +27,27 @@ cd student-management-system
 
 sql
 \i schema_and_queries.sql
-
-🏛️ UNDERSTANDING THE DATABASE STRUCTURE
-
-📌 Core Tables & Relationships
+---
+ ##UNDERSTANDING THE DATABASE STRUCTURE
+---
+  ##Core Tables & Relationships
 This system is built using relational database principles ensuring structured and efficient data management.
 
-🛠️ Table	📖 Purpose
-
+  ###Table	  ### Purpose
+---
 🎓 students	Stores student records (ID, name, email, date of birth)
 👨‍🏫 instructors	Tracks instructor details and course assignments
 📚 courses	Contains course descriptions and assigned instructors
 📝 enrollments	Links students to courses, including grades and registration dates
 🔗 Database Integrity Features:
 ✔️ Primary keys ensure uniqueness ✔️ Foreign keys establish relationships between tables ✔️ Cascading delete prevents orphan records ✔️ Indexes enhance query speed
-
-📊 SQL QUERIES & INSIGHTS
-
-🔍 Key Queries
-
+---
+## SQL QUERIES & INSIGHTS
+## Key Queries
+---
 These queries allow administrators and instructors to analyze student engagement and performance effectively.
 
- Students Currently Enrolled
+### Students Currently Enrolled
 
 sql
 SELECT DISTINCT student_id, first_name, last_name 
@@ -55,7 +55,7 @@ FROM student_management.students
 WHERE student_id IN (SELECT student_id FROM student_management.enrollments);
 Reveals students who are actively registered.
 
- Course Popularity Analysis
+### Course Popularity Analysis
 
 sql
 SELECT c.course_name, COUNT(e.student_id) AS total_students
@@ -84,8 +84,8 @@ Identifies instructors managing multiple courses.
 202	Data Science	5️⃣
 
 
-  CHALLENGES FACED & LESSONS LEARNED
-
+ # CHALLENGES FACED & LESSONS LEARNED
+---
   🔹 Designing efficient joins between tables required careful query optimization to prevent performance issues.
 
  Schema Design Considerations
@@ -93,9 +93,9 @@ Identifies instructors managing multiple courses.
 ✔ Foreign key constraints ensured data integrity
 ✔ Indexes optimized retrieval speed 
 ✔ Normalization reduced redundancy
-
- FUTURE ENHANCEMENTS
-
+---
+# FUTURE ENHANCEMENTS
+---
   Add user authentication for role-based access 
   Integrate an interactive dashboard for real-time updates 
   Automate alerts for struggling students based on performance data 
