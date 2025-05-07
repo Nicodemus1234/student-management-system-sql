@@ -86,9 +86,8 @@ Identifies instructors managing multiple courses.
 202	Data Science	5️⃣
 
 
- # CHALLENGES FACED & LESSONS LEARNED
- 
-  🔹 Designing efficient joins between tables required careful query optimization to prevent performance issues.
+  CHALLENGES FACED & LESSONS LEARNED
+  Designing efficient joins between tables required careful query optimization to prevent performance issues.
 
  Schema Design Considerations
 
@@ -96,8 +95,8 @@ Identifies instructors managing multiple courses.
 ✔ Indexes optimized retrieval speed 
 ✔ Normalization reduced redundancy
 ---
-# FUTURE ENHANCEMENTS
----
+ FUTURE ENHANCEMENTS
+
   Add user authentication for role-based access 
   Integrate an interactive dashboard for real-time updates 
   Automate alerts for struggling students based on performance data 
