@@ -86,16 +86,19 @@ Identifies instructors managing multiple courses.
 202	Data Science	5️⃣
 
 
-  CHALLENGES FACED & LESSONS LEARNED
+ ## CHALLENGES FACED & LESSONS LEARNED
+ 
   Designing efficient joins between tables required careful query optimization to prevent performance issues.
 
  Schema Design Considerations
 
-✔ Foreign key constraints ensured data integrity
-✔ Indexes optimized retrieval speed 
-✔ Normalization reduced redundancy
+Foreign key constraints ensured data integrity
+
+ Indexes optimized retrieval speed 
+ 
+ Normalization reduced redundancy
 ---
- FUTURE ENHANCEMENTS
+## FUTURE ENHANCEMENTS
 
   Add user authentication for role-based access 
   Integrate an interactive dashboard for real-time updates 
